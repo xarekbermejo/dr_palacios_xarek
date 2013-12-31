@@ -19,21 +19,26 @@ meta.foundation-mq-xxlarge {
   font-family: "/only screen and (min-width:120.063em)/";
   width: 120.063em; }
 
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid ;
+    margin: 1em 0; padding: 0;
+    background-color: #492525}
+
+.date {     text-align: center; }
+
 .thunbail { font-family: "macondo swash caps" ;
     font-size: 16pt;
     text-align: center;
-    text-shadow: 0px 1px 1px #4d4d4d;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
-#header {
+.header {
 
     font-size: 70px;
-    text-shadow: 0px 1px 1px #4d4d4d;
-    background-color: rgb( 32,33,38);
-    padding: 50px;
+    background-color: #2a2c31;
+    padding: 75px;
     text-align: center;
     font-family: parisienne;
-    color: rgb( 71,34,35 );
+    color: #ffffff;
 }
 
 *,
@@ -68,14 +73,6 @@ embed {
   max-width: 100%;
   height: auto; }
 
-hr {
-
-    border: 2px dashed #000000;
-    background-color: #000000;
-    color: #000000;
-    width: 50%;
-
-}
 
 object,
 embed {
@@ -1468,7 +1465,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   background: #333333; }
   .contain-to-grid .top-bar {
-    margin-bottom: 20px ; }
+    margin-bottom: 0px ; }
 
 .fixed {
   width: 100%;
@@ -1495,7 +1492,7 @@ meta.foundation-mq-topbar {
   line-height: 45px;
   position: relative;
   background: #333333;
-  margin-bottom: 20px; }
+  margin-bottom: px; }
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
@@ -1582,7 +1579,9 @@ meta.foundation-mq-topbar {
   width: auto;
   -webkit-transition: left 300ms ease-out;
   -moz-transition: left 300ms ease-out;
-  transition: left 300ms ease-out; }
+  transition: left 300ms ease-out;
+
+  }
   .top-bar-section ul {
     width: 100%;
     height: auto;
